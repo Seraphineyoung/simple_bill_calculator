@@ -1,0 +1,23 @@
+{
+  "name": "simple_bill_calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simple_bill.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seraphineyoung/simple_bill_calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seraphineyoung/simple_bill_calculator/issues"
+  },
+  "homepage": "https://github.com/Seraphineyoung/simple_bill_calculator#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}

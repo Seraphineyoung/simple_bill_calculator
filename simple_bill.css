@@ -1,0 +1,123 @@
+body {
+  color: #212529;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.btn {
+  border: none;
+  padding: 1rem 7rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.gas_btn {
+  background: #ff723e;
+}
+
+.electric_btn {
+  background: #e1ff39;
+}
+
+input {
+  margin: 1rem 0;
+  border-style: solid;
+  color: #212529;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  transition: border-color 0.3s ease 0s;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
+  padding: 0.8125rem 1rem;
+}
+
+.jumbotron {
+  min-height: 400px;
+  background-image: url("images/Background1.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #ccc;
+}
+
+.jumbotron .row {
+  height: 350px;
+}
+
+h2 {
+  margin: 3rem;
+}
+
+footer a,
+p {
+  color: #ccc;
+}
+footer p {
+  margin-top: 1rem;
+}
+
+footer {
+  background: #212529;
+  margin-top: 1rem;
+  padding: 2rem 0;
+}
+.fab {
+  font-size: 3rem;
+  color: #fff;
+  margin: 0 1.5rem;
+}
+
+.hidden {
+  display: none;
+  color: #212529;
+}
+.show {
+  display: block;
+}
+
+.red {
+  color: red;
+}
+
+@media only screen and (min-width: 320px) {
+  .btn {
+    padding: 1rem 4rem;
+    margin-bottom: 0;
+  }
+
+  .fab {
+    font-size: 3rem;
+    color: #fff;
+    margin: 0 1rem;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .display-4 {
+    font-size: 3.5rem;
+  }
+
+  .lead {
+    font-size: 2.25rem;
+  }
+}
