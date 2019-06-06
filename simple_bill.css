@@ -27,11 +27,11 @@ a:hover {
 }
 
 .gas_btn {
-  background: #ff723e;
+  background: #34495e;
 }
 
 .electric_btn {
-  background: #e1ff39;
+  background: #34495e;
 }
 
 input {
@@ -94,6 +94,11 @@ footer {
 .red {
   color: red;
 }
+
+/* .btn-primary:disabled {
+  background-color: #212529;
+  disabled - add this html
+} */
 
 @media only screen and (min-width: 320px) {
   .btn {
